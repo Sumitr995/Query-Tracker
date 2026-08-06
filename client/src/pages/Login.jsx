@@ -3,7 +3,7 @@ import React, { useState, useEffect, useRef } from "react";
 import { motion } from "framer-motion";
 import { Link, useNavigate } from "react-router-dom";
 import axiosInterceptor from "../utils/axiosInterceptor.js";
-import { toast } from "react-toastify";
+import { toast } from "../components/notification.js";
 import { AiOutlineEye, AiOutlineEyeInvisible } from "react-icons/ai";
 
 // --- NEW COMPONENT: Glowing Circular Progress Ring ---
