@@ -3,7 +3,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { Link, useNavigate } from "react-router-dom";
 import axiosInterceptor from "../utils/axiosInterceptor.js";
 import { FiArrowLeft, FiUser, FiMail, FiUsers, FiPhone, FiCheckCircle, FiClock, FiLogOut } from "react-icons/fi";
-import { toast } from "react-toastify";
+import { toast } from "../components/notification.js";
 
 function Profile() {
   const [user, setUser] = useState(null);
